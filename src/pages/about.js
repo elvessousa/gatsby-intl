@@ -20,9 +20,9 @@ export default function About() {
             </p>
           ) : (
             <p>
-              Site made to show the creation of a bilingual website using Gatsby
-              JS. The tutorial is in an article on my blog. Feel free to view
-              the source code, fork it, or even use it in your projects.
+              Site made to showcase the creation of a bilingual website using
+              Gatsby JS. The tutorial is in an article on my blog. Feel free to
+              view the source code, fork it, or even use it in your projects.
             </p>
           )}
           <div className="links">
