@@ -1,5 +1,6 @@
+/* Basics */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
   font-size: 14pt;
   margin: 0;
 }
@@ -11,7 +12,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10vh 70vh 20vh;
+  grid-template-rows: 3em auto 4em;
   grid-template-areas:
     "h h"
     "m m"
@@ -29,14 +30,25 @@ a {
   text-decoration: none;
 }
 
+/* Header */
 .header {
   align-items: center;
   border-bottom: 1px solid #eee;
   display: flex;
   grid-area: h;
-  justify-content: center;
 }
 
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  width: 2.5em;
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+}
+
+/* Navigation */
 .navigation {
   text-align: center;
 }
@@ -56,14 +68,120 @@ a {
   padding: 0.5em 1em;
 }
 
-.hero {
-  grid-area: m;
-  background-color: #000;
-  color: #fff;
+.active {
+  text-decoration: underline;
 }
 
+.lang {
+  margin-left: auto;
+  padding: 0.5em;
+}
+
+.lang a {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 0.8em;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+}
+
+.lang a:hover {
+  opacity: 1;
+}
+
+/* Hero */
+.hero {
+  grid-area: m;
+  background: #000 url(/img/splash.jpg) no-repeat center fixed;
+  color: #fff;
+  height: calc(100vh - 7em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #fff;
+  padding: 0.5em 2em;
+  border-radius: 0.3em;
+  margin: 2em;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.message {
+  width: auto;
+  text-align: center;
+}
+
+.message h1 {
+  margin: 0;
+}
+
+/* Articles */
+.articles {
+  grid-area: m;
+  margin-bottom: 3em;
+}
+
+.post {
+  width: min(30em, 100vw);
+  margin: 1em auto 2em;
+}
+
+.post h3 {
+  margin: 0;
+}
+
+.post time {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.post p {
+  font-size: 0.9em;
+}
+
+/* Post page */
+.post-content,
+.page-content {
+  grid-area: m;
+}
+
+.page-text,
+.post-text {
+  width: min(30em, 90vw);
+  margin: 1em auto 2em;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+/* Footer */
 .footer {
   grid-area: f;
   align-items: center;
   font-size: 0.8em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.footer p {
+  margin: 0 0 2em;
+  opacity: 0.5;
 }

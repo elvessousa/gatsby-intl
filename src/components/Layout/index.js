@@ -12,7 +12,9 @@ export default function Layout({ className, children, title }) {
       </Helmet>
       <Header />
       {children}
-      <Footer />
+      <Footer>
+        <p>Elves Sousa - 2020</p>
+      </Footer>
     </main>
   );
 }

@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.24.2",
     "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.19",
     "gatsby-transformer-remark": "^2.8.25",
     "react": "^16.13.1",

@@ -1,18 +1,6 @@
 module.exports = {
   /* Your site config here */
-  siteMetadata: {
-    title: "Dois Pontos",
-    siteUrl: "https://blog.elvessousa.com.br",
-    description: "Dois pontos: tecnologia, tutoriais, design, opinião.",
-    author: "Elves Sousa",
-    portfolio: "https://elvessousa.com.br",
-    social: {
-      github: "elvessousa",
-      twitter: "twitter",
-      fbid: "0",
-      linkedIn: "elvessousa",
-    },
-  },
+  // siteMetadata: {},
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
@@ -33,6 +21,14 @@ module.exports = {
         defaultLanguage: `pt`,
         // option to redirect to `/ko` when connecting `/`
         redirect: false,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Jost:300,300i,400,400i,700"],
+        },
       },
     },
   ],
