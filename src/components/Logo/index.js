@@ -6,7 +6,7 @@ export default function Logo({ link }) {
 
   return (
     <Link to={href} className="logo">
-      <img src="/svg/globe.svg" alt="logo" />
+      <img src="/svg/logo.svg" alt="logo" />
     </Link>
   );
 }

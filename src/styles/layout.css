@@ -120,6 +120,8 @@ a {
 }
 
 .message h1 {
+  font-size: 5em;
+  line-height: 1;
   margin: 0;
 }
 
@@ -130,7 +132,7 @@ a {
 }
 
 .post {
-  width: min(30em, 100vw);
+  width: min(30em, 90vw);
   margin: 1em auto 2em;
 }
 
