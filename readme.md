@@ -2,7 +2,7 @@
     <img alt="Logo" title="Logo" src="static/svg/logo.svg" width="250px" />
 </h1>
 
-#### Gatsby INTL
+# Gatsby INTL
 
 ![Count](https://img.shields.io/github/languages/count/elvessousa/gatsby-intl)
 ![Repo size](https://img.shields.io/github/repo-size/elvessousa/gatsby-intl)
