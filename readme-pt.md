@@ -1,5 +1,7 @@
-<h1 align="center">
+<p align="center">
     <img alt="Logo" title="Logo" src="static/svg/logo.svg" width="150px" style="display: block; margin: auto" />
+</p>
+<h1 align="center">
     <span style="display: block;">
     Gatsby INTL
     </span>
