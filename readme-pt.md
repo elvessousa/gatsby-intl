@@ -1,8 +1,9 @@
 <h1 align="center">
-    <img alt="Logo" title="Ecoleta" src="static/svg/logo.svg" width="250px" />
+    <img alt="Logo" title="Logo" src="static/svg/logo.svg" width="150px" />
+    <span style="display: block;">
+    Gatsby INTL
+    </span>
 </h1>
-
-# Gatsby INTL
 
 ![Count](https://img.shields.io/github/languages/count/elvessousa/gatsby-intl)
 ![Repo size](https://img.shields.io/github/repo-size/elvessousa/gatsby-intl)
