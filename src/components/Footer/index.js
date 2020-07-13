@@ -7,8 +7,10 @@ export default function Layout({ className, children, title }) {
 
   return (
     <footer className={footerClass}>
-      <Navigation />
-      {children}
+      <div className="footer-content">
+        <Navigation />
+        {children}
+      </div>
     </footer>
   );
 }

@@ -181,9 +181,30 @@ a {
   justify-content: center;
   flex-direction: column;
   margin-top: 2em;
+  text-align: center;
 }
 
 .footer p {
   margin: 0 0 2em;
   opacity: 0.5;
+}
+
+@media screen and (min-width: 15em) and (max-width: 47em) {
+  .header .navigation {
+    display: none;
+  }
+
+  .footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #eee;
+    padding: 1em;
+  }
+
+  .footer p {
+    margin: 0;
+  }
 }
