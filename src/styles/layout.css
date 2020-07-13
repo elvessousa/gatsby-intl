@@ -43,9 +43,9 @@ a {
 }
 
 .logo img {
-  width: 2.5em;
-  margin-top: 0.25em;
   margin-left: 0.5em;
+  margin-top: 0.25em;
+  width: 2.5em;
 }
 
 /* Navigation */
@@ -55,8 +55,8 @@ a {
 
 .navigation ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .navigation li {
@@ -78,34 +78,34 @@ a {
 }
 
 .lang a {
+  color: hsla(200, 0%, 0%, 0.7);
   display: inline-block;
-  padding: 0.5em;
   font-size: 0.8em;
-  opacity: 0.5;
+  padding: 0.5em;
   transition: all 0.2s ease-in-out;
 }
 
 .lang a:hover {
-  opacity: 1;
+  color: #000;
 }
 
 /* Hero */
 .hero {
-  grid-area: m;
+  align-items: center;
   background: #000 url(/img/splash.jpg) no-repeat center fixed;
   color: #fff;
-  height: calc(100vh - 7em);
   display: flex;
+  grid-area: m;
+  height: calc(100vh - 7em);
   justify-content: center;
-  align-items: center;
 }
 
 .button {
   background-color: #fff;
-  padding: 0.5em 2em;
   border-radius: 0.3em;
-  margin: 2em;
   display: inline-block;
+  margin: 2em;
+  padding: 0.5em 2em;
   transition: all 0.2s ease-in-out;
 }
 
@@ -115,8 +115,8 @@ a {
 }
 
 .message {
-  width: auto;
   text-align: center;
+  width: auto;
 }
 
 .message h1 {
@@ -132,8 +132,8 @@ a {
 }
 
 .post {
-  width: min(30em, 90vw);
   margin: 1em auto 2em;
+  width: min(30em, 90vw);
 }
 
 .post h3 {
@@ -157,8 +157,8 @@ a {
 
 .page-text,
 .post-text {
-  width: min(30em, 90vw);
   margin: 1em auto 2em;
+  width: min(30em, 90vw);
 }
 
 /* Pagination */
@@ -173,20 +173,20 @@ a {
 
 /* Footer */
 .footer {
-  grid-area: f;
-  align-items: center;
-  font-size: 0.8em;
-  display: flex;
   align-content: center;
-  justify-content: center;
+  align-items: center;
+  display: flex;
   flex-direction: column;
+  font-size: 0.8em;
+  grid-area: f;
+  justify-content: center;
   margin-top: 2em;
   text-align: center;
 }
 
 .footer p {
   margin: 0 0 2em;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 15em) and (max-width: 47em) {
@@ -196,12 +196,12 @@ a {
 
   .footer {
     background-color: #fff;
-    position: fixed;
+    border-top: 1px solid #eee;
     bottom: 0;
     left: 0;
-    right: 0;
-    border-top: 1px solid #eee;
     padding: 1em;
+    position: fixed;
+    right: 0;
   }
 
   .footer p {
