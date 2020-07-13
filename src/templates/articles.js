@@ -13,8 +13,6 @@ export default function Articles(props) {
     edge.node.frontmatter.lang.includes(intl.locale)
   );
 
-  console.log(numPages);
-
   return (
     <Layout title={intl.formatMessage({ id: "articles" })}>
       <section className="articles">
