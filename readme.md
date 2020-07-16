@@ -1,14 +1,16 @@
 <p align="center">
     <img alt="Logo" title="Logo" src="static/svg/logo.svg" width="150px" style="display: block; margin: auto" />
+    <h1 align="center" style="margin: 0;">
+        <span style="display: block;">
+        Gatsby INTL
+        </span>
+    </h1>
 </p>
-<h1 align="center">
-    <span style="display: block;">
-    Gatsby INTL
-    </span>
-</h1>
 
-![Count](https://img.shields.io/github/languages/count/elvessousa/gatsby-intl)
-![Repo size](https://img.shields.io/github/repo-size/elvessousa/gatsby-intl)
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/elvessousa/gatsby-intl"> 
+<img src="https://img.shields.io/github/repo-size/elvessousa/gatsby-intl">
+</p>
 
 ## About
 
