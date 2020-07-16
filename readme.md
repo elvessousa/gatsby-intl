@@ -26,7 +26,6 @@ the source code, fork it, or even use it in your projects.
 
 This project was developed using the plugins below:
 
-- gatsby
 - gatsby-plugin-intl
 - gatsby-plugin-web-font-loader
 - gatsby-source-filesystem

@@ -27,7 +27,6 @@ seus projetos.
 
 Esse projeto foi desenvolvido utilizando as extensões abaixo:
 
-- gatsby
 - gatsby-plugin-intl
 - gatsby-plugin-web-font-loader
 - gatsby-source-filesystem
