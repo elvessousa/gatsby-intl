@@ -22,7 +22,7 @@ the source code, fork it, or even use it in your projects.
 
 ---
 
-## Plugins utilizados
+## Plugins
 
 This project was developed using the plugins below:
 
