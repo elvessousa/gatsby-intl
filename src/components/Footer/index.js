@@ -2,7 +2,7 @@ import React from "react";
 
 import Navigation from "../Navigation";
 
-export default function Layout({ className, children, title }) {
+export default function Footer({ className, children }) {
   const footerClass = className || "footer";
 
   return (
