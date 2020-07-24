@@ -7,7 +7,7 @@ export default function About() {
   const locale = intl.locale !== "pt" ? `${intl.locale}` : "";
 
   return (
-    <Layout className="about" title="About">
+    <Layout className="about" title={intl.formatMessage({ id: "about" })}>
       <section className="page-content">
         <h1>{intl.formatMessage({ id: "about" })}</h1>
         <div className="page-text">
